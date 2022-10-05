@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+require(shiny)
+```
+
+# Shiny
+
+The goal of Shiny is to build a web application using the R programming language. 
+
+
+``` {r}
+# install.packages("devtools")
+devtools::install_github("aydinardalan/Lab5")
+```
+
+R command to run the shiny app:
+``` {r shiny, eval = F}
+shiny::runGitHub("shiny", username = "aydinardalan")
+```
+

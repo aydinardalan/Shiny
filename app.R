@@ -50,8 +50,8 @@ server <- function(input, output) {
 }
 
 #' Visualize Kolada
-#' 
 #' @return Nothing.
 #' @export
 #'
-visualize_kolada= shinyApp(ui = ui, server = server)
+# visualize_kolada= shinyApp(ui = ui, server = server)
+shinyApp(ui = ui, server = server)
